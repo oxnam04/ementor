@@ -1,0 +1,65 @@
+@import "./css/style.css";
+body{
+  font-family: 'Raleway', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+@mixin a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #353A5A;
+  transition: .4s;
+  padding: 2px;
+  &:hover{
+    transform: scale(1.1);
+    border-bottom: 2px #FA9F42 dashed;
+    color: #FA9F42;
+  }
+
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+@mixin h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+}
+@mixin btn{
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: .4s;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    background: #FA9F42;
+    border-radius: 0 20px;
+  }
+}
+@mixin btn1{
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: .4s;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    background: #10B582;
+    border-radius: 0 20px;
+  }
+}
+

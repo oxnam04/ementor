@@ -1,0 +1,557 @@
+@charset "UTF-8";
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1280px) {
+  #footer .footer--line {
+    width: 122.8%;
+  }
+}
+@media (max-width: 1200px) {
+  .courses--line__block {
+    width: 270px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 8px;
+  }
+}
+@media (max-width: 1024px) {
+  #courses .courses--line {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #courses .courses--line__block {
+    margin: 20px 0;
+  }
+  #topical .topical .topical--text__image--1img {
+    position: absolute;
+    right: -6px;
+    bottom: 65px;
+    width: 90%;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: 19px;
+    width: 90%;
+  }
+  #topical .topical .topical--text h1 {
+    font-size: 41px;
+  }
+  #motion .motion--animation h1 {
+    font-size: 44px;
+    margin-top: 30px;
+  }
+  #accordion .accordion .container h2 {
+    text-align: center;
+    font-size: 49px;
+    padding: 70px 0;
+  }
+  #footer .footer--line {
+    width: 126.8%;
+    height: 0;
+    margin-left: -200px;
+  }
+}
+@media (max-width: 992px) {
+  #june .june h3 {
+    width: 365px;
+    height: 72px;
+    font-size: 16px;
+    padding: 50px 0;
+  }
+}
+@media (max-width: 768px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+  #header .header--menu {
+    display: none;
+  }
+  #motion .motion--animation h1 {
+    font-size: 26px;
+    margin-top: 30px;
+  }
+  #motion .motion--animation__text h2 {
+    padding: 30px 0;
+    font-size: 17px;
+    width: 80%;
+  }
+  #motion .motion--animation__text h4 {
+    font-size: 14px;
+    width: 80%;
+  }
+  #topical .topical .topical--text h4 {
+    font-size: 14px;
+    height: 120px;
+    padding: 50px 0;
+    width: 80%;
+  }
+  #topical .topical .topical--text__image--1img {
+    position: absolute;
+    right: -7px;
+    bottom: 127px;
+    width: 123%;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: -49px;
+    width: 127%;
+    margin-top: 40px;
+  }
+  #june .june h1 {
+    width: 224px;
+    height: 140px;
+    font-size: 34px;
+  }
+  #june .june h3 {
+    width: 329px;
+    height: 72px;
+    font-size: 16px;
+    padding: 50px 0;
+  }
+  #accordion .accordion .container h2 {
+    text-align: center;
+    font-size: 43px;
+    padding: 70px 0;
+  }
+  #accordion .accordion .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 90%;
+    padding: 1em 0;
+    font-size: 1.15rem;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 610px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer .footer--logo__text {
+    flex-direction: column;
+    display: none;
+  }
+  #footer .footer--end h5 {
+    padding: 30px 0;
+    font-size: 11px;
+  }
+  #footer .footer--end__end1 h4 {
+    margin-left: 30px;
+    font-size: 11px;
+  }
+  #topical {
+    height: 430px;
+  }
+  #footer .footer--line {
+    width: 133.8%;
+    height: 0;
+    margin-left: -200px;
+  }
+  #footer .footer--logo__text1 a {
+    font-size: 23px;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 20px;
+  }
+  #footer .footer--logo__text1 h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 576px) {
+  #motion .motion--animation__text h2 {
+    padding: 30px 0;
+    font-size: 15px;
+    width: 90%;
+  }
+  #motion .motion--animation__seven {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #header .header .hamburger-menu {
+    display: block;
+  }
+  #motion .motion--animation__text h4 {
+    font-size: 14px;
+    width: 90%;
+  }
+  #courses .courses--line {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    display: contents;
+  }
+  #june .june h1 {
+    width: 224px;
+    height: 140px;
+    font-size: 34px;
+    margin-left: -80px;
+  }
+  #june .june h3 {
+    width: 329px;
+    height: 72px;
+    font-size: 16px;
+    padding: 50px 0;
+    margin-left: -80px;
+  }
+  #accordion .accordion .container h2 {
+    text-align: center;
+    font-size: 31px;
+    padding: 70px 0;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 528px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 528px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer .footer--logo p {
+    width: 80%;
+    font-size: 10px;
+  }
+  #footer .footer--logo__text1 h2 {
+    font-size: 18px;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 18px;
+  }
+  #footer .footer--logo__text1 a {
+    font-size: 18px;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 18px;
+    width: 112%;
+  }
+  #motion .motion--animation h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  #footer .footer--logo__icons {
+    font-size: 17px;
+    padding: 30px 0;
+  }
+  #footer .footer--end h5 {
+    padding: 30px 0;
+    font-size: 9px;
+    width: 40%;
+  }
+  #footer .footer--end__end1 h4 {
+    margin-left: 30px;
+    font-size: 9px;
+  }
+  #footer .footer--end__end1 h4 {
+    margin-left: 30px;
+    font-size: 9px;
+  }
+  #accordion .accordion .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    font-size: 15px;
+  }
+  #footer .footer--line {
+    width: 143.8%;
+    height: 0;
+    margin-left: -200px;
+  }
+  #june .june h1 {
+    width: 224px;
+    height: 140px;
+    font-size: 38px;
+    margin-left: -80px;
+  }
+  #june .june h3 {
+    width: 336px;
+    font-weight: 700;
+    height: 72px;
+    font-size: 18px;
+    margin-left: -79px;
+    padding: 0;
+  }
+  #june .june button {
+    margin: 70px 0;
+  }
+}
+@media (max-width: 450px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+  #motion .motion .motion--home {
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+  }
+  #motion .motion--animation__seven {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #motion .motion .motion--home a {
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px;
+  }
+  #motion .motion--animation h1 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  #motion .motion--animation__text h2 {
+    padding: 30px 0;
+    font-size: 13px;
+    width: 90%;
+  }
+  #motion .motion--animation__text h4 {
+    font-size: 12px;
+    width: 90%;
+  }
+  #topical .topical .topical--text h4 {
+    font-size: 11px;
+    height: 120px;
+    padding: 21px 0;
+    width: 80%;
+  }
+  #topical .topical .topical--text h1 {
+    font-size: 29px;
+  }
+  #topical {
+    height: 357px;
+  }
+  #june .june h3 {
+    width: 262px;
+    height: 72px;
+    font-size: 14px;
+    padding: 5px 0;
+    margin-left: -79px;
+  }
+  #june .june button {
+    font-size: 14px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 60px;
+    margin-left: -80px;
+  }
+  #accordion .accordion .container h2 {
+    font-size: 24px;
+    padding: 70px 0;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 376px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 12px;
+    width: 112%;
+  }
+  #footer .footer--logo__text1 a {
+    font-size: 15px;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 12px;
+    width: 112%;
+  }
+  #footer .footer--logo__text1 a {
+    font-size: 15px;
+  }
+  #footer .footer--line {
+    width: 154.4%;
+    height: 0;
+    margin-left: -200px;
+  }
+}
+@media (max-width: 414px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+  #motion .motion--animation__text h2 {
+    padding: 30px 0;
+    font-size: 13px;
+    width: 90%;
+  }
+  #motion .motion--animation__text h4 {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 12px;
+    width: 90%;
+  }
+  #footer .footer--line {
+    width: 158.4%;
+    height: 0;
+    opacity: 0.1;
+    margin-left: -200px;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 12px;
+    width: 111%;
+  }
+}
+@media (max-width: 400px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+  #june .june h3 {
+    width: 235px;
+    height: 72px;
+    font-size: 14px;
+    padding: 5px 0;
+    margin-left: -79px;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 12px;
+    width: 110%;
+  }
+}
+@media (max-width: 380px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+  #topical .topical .topical--text button {
+    margin-top: 10px;
+  }
+  #footer .footer--line {
+    width: 163.4%;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 339px;
+  }
+  #topical .topical .topical--text__image--1img {
+    position: absolute;
+    right: 13px;
+    bottom: 171px;
+    width: 123%;
+  }
+  #courses .courses--line__block {
+    width: 240px;
+    height: 121px;
+  }
+  #june .june h1 {
+    width: 224px;
+    height: 140px;
+    margin-left: -80px;
+  }
+  #june .june h3 {
+    height: 0;
+    font-size: 13px;
+  }
+  #june .june button {
+    margin-top: 142px;
+  }
+  #footer .footer--logo p {
+    width: 90%;
+  }
+  #motion .motion--animation__seven {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 375px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+}
+@media (max-width: 360px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+}
+@media (max-width: 320px) {
+  #june {
+    background: url("/img/офис-менеджер.jpg") no-repeat;
+    background-size: 100vh;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 291px;
+  }
+  #footer .footer--logo__icons {
+    width: 120%;
+  }
+  #accordion .accordion .container h2 {
+    font-size: 19px;
+    padding: 70px 0;
+  }
+  #june .june h1 {
+    margin-left: -83px;
+  }
+  #june .june h3 {
+    height: 0;
+    font-size: 11px;
+    color: #10B582;
+  }
+  #topical .topical .topical--text h4 {
+    font-size: 11px;
+    height: 120px;
+    padding: 0px 0;
+    width: 80%;
+  }
+  #topical .topical .topical--text h1 {
+    font-size: 20px;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: -33px;
+    width: 127%;
+    margin-top: 43px;
+  }
+  #topical .topical .topical--text__image--1img {
+    position: absolute;
+    right: -1px;
+    bottom: 188px;
+    width: 123%;
+  }
+  #topical .topical .topical--text button {
+    margin-top: 58px;
+  }
+  #footer .footer--line {
+    width: 174.4%;
+  }
+  #june .june h3 {
+    font-size: 11px;
+    width: 100%;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 9px;
+    width: 55%;
+  }
+  #footer .footer--logo__text1 a {
+    font-size: 15px;
+  }
+  #footer .footer--logo__text1 h2 {
+    font-size: 15px;
+  }
+  #footer .footer--logo__ementor h2 {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  #june .june h3 {
+    font-size: 14px;
+    width: 170%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
