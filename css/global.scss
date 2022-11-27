@@ -1,24 +1,27 @@
 @import "./css/style.css";
-body{
+
+body {
   font-family: 'Raleway', sans-serif;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
 }
 
-@mixin a{
+@mixin a {
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   color: #353A5A;
   transition: .4s;
   padding: 2px;
-  &:hover{
+  &:hover {
     transform: scale(1.1);
     border-bottom: 2px #FA9F42 dashed;
     color: #FA9F42;
@@ -26,17 +29,19 @@ a{
 
 }
 
-.container{
+.container {
   width: 80%;
   margin: 0 auto;
 }
+
 @mixin h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 120%;
 }
-@mixin btn{
+
+@mixin btn {
   font-size: 14px;
   border-radius: 15px;
   padding: 10px 30px;
@@ -49,7 +54,8 @@ a{
     border-radius: 0 20px;
   }
 }
-@mixin btn1{
+
+@mixin btn1 {
   font-size: 14px;
   border-radius: 15px;
   padding: 10px 30px;
@@ -62,4 +68,3 @@ a{
     border-radius: 0 20px;
   }
 }
-

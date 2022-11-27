@@ -19,6 +19,9 @@
     flex-direction: column;
     margin: 0 8px;
   }
+  #header .header--menu__hamburger {
+    display: none;
+  }
 }
 @media (max-width: 1024px) {
   #courses .courses--line {
@@ -30,7 +33,6 @@
     margin: 20px 0;
   }
   #topical .topical .topical--text__image--1img {
-    position: absolute;
     right: -6px;
     bottom: 65px;
     width: 90%;
@@ -64,13 +66,25 @@
     font-size: 16px;
     padding: 50px 0;
   }
+  #motion .motion--animation h1 {
+    font-size: 44px;
+    margin-top: 30px;
+    padding: 20px 0;
+  }
+}
+@media (max-width: 820px) {
+  #accordion .accordion .accordion .accordion-item {
+    width: 760px;
+  }
+  #topical .topical .topical--text__image--1img {
+    bottom: 146px;
+  }
+  #footer .footer--logo__text {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
-  #june {
-    background: url("/img/офис-менеджер.jpg") no-repeat;
-    background-size: 100vh;
-  }
-  #header .header--menu {
+  #header .header--menu__hamburger {
     display: none;
   }
   #motion .motion--animation h1 {
@@ -93,7 +107,6 @@
     width: 80%;
   }
   #topical .topical .topical--text__image--1img {
-    position: absolute;
     right: -7px;
     bottom: 127px;
     width: 123%;
@@ -167,6 +180,31 @@
   #footer .footer--logo__text1 h2 {
     font-size: 28px;
   }
+  #header .header--menu {
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header .header h1 {
+    top: 36px;
+    left: 56px;
+  }
+  #motion .motion--animation h1 {
+    font-size: 26px;
+    margin-top: 30px;
+    padding: 30px 0;
+  }
+  #topical .topical .topical--text__image--1img {
+    right: -13px;
+    bottom: 57px;
+    width: 140%;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: -72px;
+    width: 141%;
+    margin-top: 98px;
+  }
 }
 @media (max-width: 576px) {
   #motion .motion--animation__text h2 {
@@ -178,9 +216,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  #header .header .hamburger-menu {
-    display: block;
   }
   #motion .motion--animation__text h4 {
     font-size: 14px;
@@ -290,6 +325,31 @@
   #june .june button {
     margin: 70px 0;
   }
+  #header .header h2 {
+    top: 37px;
+    left: 48px;
+  }
+  #header .header--menu {
+    display: none;
+  }
+  #header .header .header--menu__hamburger {
+    display: block;
+  }
+}
+@media (max-width: 540px) {
+  #june .june h3 {
+    width: 319px;
+    font-size: 14px;
+    color: #10B582;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 486px;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: -55px;
+    width: 141%;
+    margin-top: 136px;
+  }
 }
 @media (max-width: 450px) {
   #june {
@@ -380,6 +440,15 @@
     height: 0;
     margin-left: -200px;
   }
+  #topical .topical .topical--text h4 {
+    font-size: 14px;
+    height: 120px;
+    padding: 16px 0;
+    width: 80%;
+  }
+  #topical .topical .topical--text button {
+    margin: 60px 0;
+  }
 }
 @media (max-width: 414px) {
   #june {
@@ -407,6 +476,19 @@
     font-size: 12px;
     width: 111%;
   }
+  #june .june h3 {
+    color: #10B582;
+  }
+  #topical .topical .topical--text__image--1img {
+    right: -3px;
+    bottom: 39px;
+    width: 163%;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: -69px;
+    width: 168%;
+    margin-top: 172px;
+  }
 }
 @media (max-width: 400px) {
   #june {
@@ -423,6 +505,47 @@
   #footer .footer--logo__text1 h3 {
     font-size: 12px;
     width: 110%;
+  }
+  #topical .topical .topical--text h1 {
+    font-size: 22px;
+    margin: -20px 0 0;
+  }
+  #topical .topical .topical--text button {
+    margin: 76px 0;
+  }
+  #topical .topical .topical--text h4 {
+    font-size: 11px;
+    height: 120px;
+    padding: 16px 0;
+    width: 80%;
+  }
+  #topical .topical .topical--text__image--1img {
+    right: -3px;
+    bottom: 52px;
+    width: 163%;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: -74px;
+    width: 168%;
+    margin-top: 143px;
+  }
+  #june .june h3 {
+    width: 291px;
+    height: 72px;
+    font-size: 14px;
+    padding: -84px 0;
+    margin-left: -179px;
+  }
+  #june .june h1 {
+    width: 353px;
+    height: 140px;
+    font-size: 38px;
+    margin-left: -175px;
+    padding: 60px 0;
+    color: #10B582;
+  }
+  #june .june h3 {
+    margin-top: -100px;
   }
 }
 @media (max-width: 380px) {
@@ -480,11 +603,53 @@
     background: url("/img/офис-менеджер.jpg") no-repeat;
     background-size: 100vh;
   }
+  #accordion .accordion .container h2 {
+    font-size: 20px;
+  }
+  #accordion .accordion .accordion .accordion-item {
+    width: 327px;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 12px;
+    width: 107%;
+  }
+  #topical .topical .topical--text__image--1img {
+    position: absolute;
+    right: 4px;
+    bottom: 60px;
+    width: 161%;
+  }
+  #topical .topical .topical--text button {
+    margin-top: 28px;
+  }
+  #june .june h1 {
+    width: 224px;
+    height: 140px;
+    margin-left: -174px;
+  }
+  #june .container {
+    height: 500px;
+  }
+  #footer .footer--logo p {
+    width: 227%;
+  }
+  #footer .footer--logo__icons {
+    width: 120%;
+    margin-top: 50px;
+  }
+  #footer .footer--logo__text1 {
+    padding: 40px 0 0 0;
+  }
 }
 @media (max-width: 320px) {
   #june {
     background: url("/img/офис-менеджер.jpg") no-repeat;
     background-size: 100vh;
+  }
+  #motion .motion--animation img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 -30px;
   }
   #accordion .accordion .accordion .accordion-item {
     width: 291px;
@@ -497,12 +662,16 @@
     padding: 70px 0;
   }
   #june .june h1 {
-    margin-left: -83px;
+    margin-left: -153px;
+    padding: 30px 0 0;
+    color: #10B582;
   }
   #june .june h3 {
     height: 0;
     font-size: 11px;
     color: #10B582;
+    margin-left: -150px;
+    margin-top: -20px;
   }
   #topical .topical .topical--text h4 {
     font-size: 11px;
@@ -511,7 +680,7 @@
     width: 80%;
   }
   #topical .topical .topical--text h1 {
-    font-size: 20px;
+    font-size: 21px;
   }
   #topical .topical .topical--text__image--0img {
     margin-left: -33px;
@@ -551,6 +720,70 @@
   #june .june h3 {
     font-size: 14px;
     width: 170%;
+  }
+  #accordion .accordion .container h2 {
+    font-size: 19px;
+    padding: 14px 0;
+  }
+  #topical .topical .topical--text__image--1img {
+    right: -1px;
+    bottom: 61px;
+    width: 157%;
+  }
+  #topical .topical .topical--text__image--0img {
+    margin-left: -51px;
+    width: 155%;
+    margin-top: 157px;
+  }
+  #topical .topical .topical--text__image--1img {
+    right: -6px;
+    width: 157%;
+  }
+  #topical .topical .topical--text h4 {
+    font-size: 10px;
+  }
+  #topical .topical .topical--text button {
+    margin-top: 47px;
+    width: 130px;
+    font-size: 10px;
+  }
+  #accordion .accordion .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    font-size: 13px;
+  }
+  #footer .footer--logo p {
+    width: 295%;
+  }
+  #footer .footer--logo__icons {
+    width: 120%;
+    margin-top: 50px;
+  }
+  #accordion .accordion .accordion button {
+    width: 91%;
+  }
+  #footer .footer--logo__text1 h3 {
+    font-size: 9px;
+    width: 68%;
+  }
+  #footer .footer--logo__text1 {
+    padding: 40px 0 0 0;
+  }
+  #motion .motion--animation__text h4 {
+    padding: 100px 0 0;
+  }
+  #motion .motion--animation__text h4 {
+    margin-top: -108px;
+  }
+  #header .header input ~ nav > ul > li > a {
+    padding: 16px;
+  }
+  #header .header input:checked ~ nav {
+    height: 68%;
+    transition-delay: 0s;
+  }
+  #motion .motion--animation h1 {
+    font-size: 16px;
+    margin-top: 0px;
   }
 }
 

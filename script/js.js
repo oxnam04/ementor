@@ -7,7 +7,7 @@ function toggleAccordion() {
         items[i].setAttribute('aria-expanded', 'false');
     }
 
-    if (itemToggle == 'false') {
+    if (itemToggle === 'false') {
         this.setAttribute('aria-expanded', 'true');
     }
 }
